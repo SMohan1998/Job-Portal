@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || "http://localhost:5000/api", // backend url
+  baseURL: import.meta.env.VITE_API_URL || "https://job-portal-uhh4.onrender.com/api", // backend url
   // withCredentials: true // enable if backend uses cookies for auth
 });
 

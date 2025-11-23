@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import API from "../services/api";
 
 const IMAGE_BASE_URL =
-  import.meta.env.VITE_BACKEND_URL || "http://localhost:5000/";
+  import.meta.env.VITE_BACKEND_URL || "https://job-portal-uhh4.onrender.com";
 
 const EmployerProfile = () => {
   const [profile, setProfile] = useState(null);
