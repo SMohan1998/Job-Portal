@@ -49,7 +49,7 @@ The platform provides **job postings, job applications, resume uploads, job reco
 
 ---
 
-## 🏗 Tech Stack
+## Tech Stack
 
 | Category | Technology |
 |----------|-----------|
