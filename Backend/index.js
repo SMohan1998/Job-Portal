@@ -8,7 +8,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: 'https://job-portal-mohans.netlify.app/', // Frontend URL
+  origin: 'https://job-portal-mohans.netlify.app', // Frontend URL
   credentials: true,
 }));
 
