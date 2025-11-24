@@ -42,10 +42,10 @@ const EmployerProfile = () => {
       <div className="flex flex-col items-center mb-4">
         <img
           src={
-            profile.profilePicture
-              ? `${IMAGE_BASE_URL}${profile.profilePicture}`
-              : "/default-avatar.png"
-          }
+          profile.profilePicture
+          ? `${IMAGE_BASE_URL}${profile.profilePicture.startsWith('/') ? '' : '/'}${profile.profilePicture}`
+          : "/default-avatar.png"
+}
           alt="avatar"
           className="w-28 h-28 rounded-full object-cover border-2 border-blue-500"
         />
